@@ -1,0 +1,258 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;text-align:left;font-family:inherit;}table{border-collapse:collapse;border-spacing:0;}ol,ul{list-style:none;}q:before,q:after,blockquote:before,blockquote:after{content:"";}
+
+
+
+html {
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+body{
+  min-width: 900px;
+}
+
+div#header {
+padding-top: 50px;
+height: 230px;
+background: url('../img/light.png') no-repeat fixed 50% 0;
+}
+
+div#logo {
+  background: url('../img/logo-dark.png') no-repeat scroll 0 0;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 900px;
+  position: relative;
+  cursor:pointer;
+  }
+
+div#login{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  text-transform: uppercase;
+  font-size: 75%;
+  z-index:5;
+}
+
+a   { outline: none; text-decoration: none; }
+a:hover { outline: none;            }
+a:active{ outline: none;            }
+
+
+
+#login a {
+text-decoration: none;
+color: #000;
+border-bottom: #999 1px dashed;
+padding: 1px;
+}
+
+#login a:hover{
+  color: #666;
+}
+
+
+
+div#tagline {
+  float: right;
+  color: #000;
+  text-shadow: #333 0px 0px 1px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+div#tagline2{
+  color: #fafafa;
+  font-family: futura;
+  font-size: 30px;
+  position: absolute;
+  top: 110px;
+  right: 70px;
+  text-shadow: #000 -1px -1px 2px;
+}
+
+#content {
+  background: url('../img/fade.png') repeat-x center top;
+  margin-top: 0px;
+  padding:30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blurb div.prelist
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  text-shadow: 0px 1px 2px #ccc;
+}
+
+#contact
+{
+  background: url('../img/fade.png') repeat-x center top;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 32px;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  text-shadow: 0px 1px 2px #ccc;
+}
+
+#contact a
+{
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+  color: inherit;
+}
+
+div#services {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#footer{
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 0px 0px 1px #000;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+
+}
+
+img#contact_badge
+{
+  float: left;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+
+div#menu{
+  background: url("../img/topnav.png") no-repeat scroll center top transparent;
+  font-size: 120%;
+  height: 48px;
+  left: 0%;
+  padding-top: 10px;
+  position: fixed;
+  right: 0%;
+  text-align: center;
+  top: 0;
+}
+
+div#menu a {
+  color: inherit; font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+div#menu a:hover, ul#menuitems li.selected {
+  color: #F9907C;
+}
+
+div#menu a:hover {
+  text-shadow: 0px 0px 5px #6E6B58;
+}
+
+ul#menuitems{
+  text-align: center;
+}
+
+ul#menuitems li
+{
+  display: inline-table;
+  color: #D1DFB2;
+  text-shadow: 0px 0px 2px #979378;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px dotted #666;
+}
+#menuitems a{
+  position: relative;
+}
+ul#menuitems li:last-child
+{
+  border:none;
+}
+
+
+ul.serviceslist li
+{
+  font-size: 40px;
+
+  padding-top: 1px;
+
+  color: #ffea63;
+  text-shadow: #000 1px 1px 2px;
+  
+}
+
+ul.serviceslist li div
+{
+  background: url('../img/icons.png') no-repeat;
+  height: 64px;
+  width:64px;
+  float:left;
+  margin:2px 25px 5px auto;
+}
+
+ul.serviceslist li div:hover
+{
+  background: url('../img/icons_invert.png') no-repeat;
+  height: 64px;
+  width:64px;
+  float:left;
+  margin:2px 25px 5px auto;
+}
+
+.serviceslist b {
+  color: #8f1900;
+
+}
+
+div#graph { background-position: 0px 0px;}
+div#bandaid { background-position: 0px -64px;}
+div#flag    { background-position: 0px -128px;}
+div#help    { background-position: 0px -192px;}
+div#barcode { background-position: 0px -256px;}
+
+hr.hrfade {
+  border: 0;
+  width: 600px;
+  height: 1px;
+  background: url('../img/hr_fade.png');
+  clear:both;
+}
+
+div#content {   background-color: #ccc; }
+div#header  { background-color: #fed351;  }
+div#contact { background-color: #8b8b8b;    }
+div#footer  { background-color: #666;   }
+body    { background-color: #1e2326;  }
+
+#gtalkbadge {
+  left: 7px;
+  padding-left: 12px;
+  padding-top: 8px;
+  position: fixed;
+  top: 7px;
+  z-index:5px;
+}
