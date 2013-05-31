@@ -1,6 +1,6 @@
-Jekyll version of mdx cake php site
+Jekyll version of [MindTrack](https://github.com/jsilverMDX/MindTrack)'s webroot
 
-dynamic content can be added as such:
+Use the templating system like this:
 ```
 <div id="home">
   <h1>Blog Posts</h1>
@@ -11,3 +11,5 @@ dynamic content can be added as such:
   </ul>
 </div>
 ```
+
+For more info, google for Jekyll or check out https://github.com/mojombo/jekyll
