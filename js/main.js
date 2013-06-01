@@ -2,7 +2,8 @@ $(function() {
   console.log("MDX group is pleased.");
 
   function fix_height () {
-    $('#content').css('min-height', $(window).height()-420);
+    pos = $(window).height() - $('#header').height();
+    $('#content').css('min-height', pos);
   }
 
   $(window).resize(fix_height).resize();
